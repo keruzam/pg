@@ -20,7 +20,6 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <start-class>pl.keruzam.Application</start-class>
 		<!-- old java
 			<java.version>1.6</java.version>
 			<tomcat.version>7.0.59</tomcat.version>
@@ -59,6 +58,8 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
+        
+        <!-- webJars -->
 		<dependency>
 			<groupId>org.webjars</groupId>
 			<artifactId>bootstrap</artifactId>
@@ -92,6 +93,7 @@
 		</plugins>
 	</build>
 	
+	<!-- 
 	<repositories>
         <repository>
             <id>spring-releases</id>
@@ -106,5 +108,5 @@
             <url>https://repo.spring.io/libs-release</url>
         </pluginRepository>
     </pluginRepositories>
-
+	 -->
 </project>
